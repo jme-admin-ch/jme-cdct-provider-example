@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+jeap:
+  security:
+    oauth2:
+      resourceserver:
+        authorization-server:
+          issuer: "http://localhost:8180/jme-cdct-auth-scs"
+          jwk-set-uri: "http://localhost:8180/jme-cdct-auth-scs/.well-known/jwks.json"
