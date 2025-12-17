@@ -4,7 +4,7 @@
     <name>${project.groupId}:${project.artifactId}</name>
     <url>https://github.com/jme-admin-ch/jme-cdct-provider-example/tree/main</url>
     <scm>
-        <url>https://github.com/jme-admin-ch/jme-cdct-provider-example/tree/master.git</url>
+        <url>https://github.com/jme-admin-ch/jme-cdct-provider-example.git</url>
         <connection>scm:git:git://github.com/jme-admin-ch/jme-cdct-provider-example.git</connection>
         <developerConnection>scm:git:ssh://github.com:jme-admin-ch/jme-cdct-provider-example.git</developerConnection>
     </scm>
@@ -27,7 +27,7 @@
     <parent>
         <groupId>ch.admin.bit.jeap</groupId>
         <artifactId>jeap-spring-boot-parent</artifactId>
-        <version>30.1.0</version>
+        <version>30.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -39,7 +39,7 @@
     </properties>
 
     <artifactId>jme-cdct-provider-example</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -60,14 +60,6 @@
                                 <Bundle-License>https://www.apache.org/licenses/LICENSE-2.0</Bundle-License>
                             </manifestEntries>
                         </archive>
-                    </configuration>
-                </plugin>
-                <!-- Allow Mockito agent with Java 25+ -->
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <configuration>
-                        <argLine>-XX:+EnableDynamicAgentLoading -Xshare:off</argLine>
                     </configuration>
                 </plugin>
             </plugins>

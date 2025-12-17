@@ -90,7 +90,8 @@ Additionally, you need to start the mock authorization server located in the `jm
 ```
 
 Consumer services use this mock authorization server to obtain access tokens required for authenticating requests to
-the provider service.
+the provider service. In swagger for example: OIDC (OAuth2, authorization_code with PKCE), client_id and client_secret 
+can be found in the application.yml file of the mock authorization server.
 
 ## Development Guidelines
 
