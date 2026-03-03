@@ -14,7 +14,6 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [1.2.0] - 2026-02-19
 
 ### Dependencies
-- **ch.admin.bit.jeap:jeap-spring-boot-parent**: 30.16.0 → 30.18.0 (minor)
 - **ch.admin.bit.jeap:jeap-spring-boot-parent**: 30.4.0 → 30.16.0 (minor)
 - **ch.admin.bit.jeap:jeap-oauth-mock-server**: 3.25.0 → 3.35.0 (minor)
 - **maven**: 3.9.11 → 3.9.12 (patch)
