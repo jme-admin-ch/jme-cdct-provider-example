@@ -22,8 +22,7 @@ public class ProviderApplication {
         }
         log.info("""
                     ----------------------------------------------------------
-                        Yeah!!! {} is running!
-
+                            {}
                         SwaggerUI: {}://localhost:{}{}/swagger-ui.html?urls.primaryName=public-api
                         Profile(s): {}
                     ----------------------------------------------------------""",
