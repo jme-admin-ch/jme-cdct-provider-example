@@ -1,5 +1,6 @@
 package ch.admin.bit.jeap.jme.processcontext.test;
 
+import ch.admin.bit.jeap.jme.test.BootServiceIntegrationTestBase;
 import io.restassured.http.ContentType;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeAll;
@@ -15,7 +16,6 @@ public class CdctProviderExampleIT extends BootServiceIntegrationTestBase {
 
     private static final String AUTH_BASE_URL = "http://localhost:8180/jme-cdct-auth-scs";
     private static final String SCS_BASE_URL = "http://localhost:8080/jme-cdct-provider-service";
-    private static final String AUTH_TOKEN_URL = AUTH_BASE_URL + "/oauth2/token";
 
     @BeforeAll
     static void startServices() throws Exception {
