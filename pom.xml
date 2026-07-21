@@ -27,12 +27,12 @@
     <parent>
         <groupId>ch.admin.bit.jeap</groupId>
         <artifactId>jeap-spring-boot-parent</artifactId>
-        <version>37.0.0</version>
+        <version>37.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
-        <jeap-oauth-mock-server.version>6.7.0</jeap-oauth-mock-server.version>
+        <jeap-oauth-mock-server.version>7.0.0</jeap-oauth-mock-server.version>
         <jme-spring-boot-integration-test.version>5.7.1</jme-spring-boot-integration-test.version>
         <java.version>25</java.version>
         <maven.compiler.release>25</maven.compiler.release>
@@ -40,7 +40,7 @@
     </properties>
 
     <artifactId>jme-cdct-provider-example</artifactId>
-    <version>7.12.0-SNAPSHOT</version>
+    <version>8.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
